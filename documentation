@@ -1,0 +1,51 @@
+# Banking System Documentation
+
+## Overview
+This repository contains a Python script implementing a simple text-based banking system. The system allows users to log in, deposit money, withdraw money, and check their account balance. The system uses a dictionary to store account information.
+
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Prerequisites](#prerequisites)
+4. [Usage](#usage)
+5. [Code Explanation](#code-explanation)
+6. [Known Issues](#known-issues)
+7. [Future Improvements](#future-improvements)
+8. [Contributing](#contributing)
+9. [License](#license)
+
+## Introduction
+The purpose of this project is to demonstrate the implementation of a basic banking system in Python. Users can interact with the system through a console interface.
+
+## Features
+- User login with account number and PIN verification.
+- Deposit funds into the account.
+- Withdraw funds from the account.
+- Check account balance.
+- Simple text-based interface for ease of use.
+
+## Prerequisites
+- Python 3.x
+
+## Usage
+1. Clone the repository to your local machine.
+2. Open a terminal or command prompt in the cloned directory.
+3. Run the script using the command: `python banking_system.py`.
+
+## Code Explanation
+1. `bank_data` Dictionary: Stores account information for users.
+2. `login()` Function: Handles user login with account number and PIN verification.
+3. `deposit(account_number)` Function: Allows a logged-in user to deposit money into their account.
+4. `withdraw(account_number)` Function: Allows a logged-in user to withdraw money from their account.
+5. `print_banking_system()` Function: Serves as the main entry point for the banking system.
+
+
+## Future Improvements
+- Implement data persistence using a database to store account information.
+- Add error handling to handle invalid user inputs and edge cases.
+- Enhance security measures (e.g., hashing PINs) to protect user information.
+- Implement additional features such as fund transfers between accounts, account creation, etc.
+
+## Contributing
+Contributions to this project are welcome. If you find any bugs or have suggestions for improvements, please feel free to open an issue or create a pull request.
+
